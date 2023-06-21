@@ -32,16 +32,16 @@ const About = () => {
           Une envie qui a commencé il y a plus de 10 ans. Je me lance enfin et ouf cela me fait du bien.            
           </p>
           <p>
-          Depuis janvier 2023, je suis étudiante à Ada Tech School, une école inclusive  adoptant une approche pratique et immersive de l'apprentissage (projets concrets et expérience pratique). Ce qui me permet de monter en compétence continuellement. Le cursus dure 21 mois dont 12 mois en alternance.
+          Depuis janvier 2023, je suis étudiante à Ada Tech School, une école inclusive  adoptant une approche pratique et immersive de l&apos;apprentissage, projets concrets et expérience pratique. Ce qui me permet de monter en compétence continuellement. Le cursus dure 21 mois dont 12 mois en alternance.
           </p>
           <p className='py-5'>
-            Les stacks que j'apprends :
+            Les stacks que j&apos;apprends :
           </p>
           <Stacks/>
          <div className='CTA space-y-3 pt-5'> 
-            <p className='flex'>Vous pouvez m'embaucher <a className=' cursor-none px-2' href='#contact'><SiGooglemessages size={25} color='#0B927A'/></a>
+            <p className='flex'>Vous pouvez m&apos;embaucher <a className=' cursor-none px-2' href='#contact'><SiGooglemessages size={25} color='#0B927A'/></a>
             </p>
-            <p className='flex'>Ou télécharger mon cv<a href='/assets/CV_Elodie.pdf' download className=' cursor-none px-1'><RiDownload2Line size={25} color='#0B927A'/></a>pour m'embaucher
+            <p className='flex'>Ou télécharger mon cv<a href='/assets/CV_Elodie.pdf' download className=' cursor-none px-1'><RiDownload2Line size={25} color='#0B927A'/></a>pour m&apos;embaucher
             </p>
           </div>
         </div>
