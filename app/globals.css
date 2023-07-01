@@ -153,31 +153,28 @@ html{
     background: rgb(255, 199, 184)
     }
 
-@media(min-width: 1024px) {
+@media(min-width: 800px) {
   .bg{
-    background-image: url(../public/assets/renard.png
-    ) ;
+    background-image: url(../public/assets/renard.png) ;
     background-size: cover;
     background-size: 50%;
 
     
   }
   .bg3{
-    background-image: url(../public/assets/bpz.png
-    ) ;
+    background-image: url(../public/assets/bpz.png) ;
     background-size: cover;
     
   }
   .bg4{
-    background-image: url(../public/assets/bg6.png
-    ) ;
+    background-image: url(../public/assets/bg6.png) ;
     background-size: cover;
     
   }
   .bg5{
-    background-image: url(../public/assets/mp1.png
-    ) ;
-    background-size: cover;
+    background-image: url(../public/assets/mp1.png) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
     background-size: 75%;
     
   } 
