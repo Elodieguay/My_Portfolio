@@ -2,7 +2,9 @@
 
 Ce portfolio présente tous les projets que j'ai réalisé pendant ma formation à Ada Tech School.
 <br>
-Il a été réalisé avec Next.js 13 , React 18 et Tailwind.
+<br>
+Il a été réalisé from scratch avec Next.js 13, React 18 et Tailwind.
+<br>
 <br>
 Enjoy !
 
