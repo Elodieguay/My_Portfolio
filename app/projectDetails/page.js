@@ -44,7 +44,7 @@ console.log(projectId);
             <div className=' max-sm:text-base max-sm:max-w-md md:text-2xl max-w-5xl m-auto p-5 justify-center space-x- px-10 tracking-normal'>
               <h2 className=' py-2'>{project.subtitle}</h2>
               <p className='  py-5 font-semibold '>{project.team}</p>
-              <p className=' py-5'>Stack utilisé :{project.tags}</p>
+              <p className=' py-5'>Stacks utilisés :{project.tags}</p>
               <p className=' py-5'>{project.description}</p>
               <Link  href={project.git} target='_blank ' className="flex font-bold">Voir le projet sur  <FaGithub size={30} color='#0f3b56'/></Link>
               <p className=" py-20 text-xl font-semibold text-[#0f3b56] flex relative"><Link className=' cursor-none' href='#projects'><BsFillArrowLeftCircleFill size={40} color='#0f3b56' />Retour aux Projets</Link></p>
