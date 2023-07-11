@@ -3,6 +3,18 @@ import React from 'react'
 
 
 export const projects = [
+
+    {
+        title: 'Site de vente de meuble',
+        description:'Création du serveur et de la Base de donnée en MySql. Nous avons utlisé le dashboard de Php My Admin pour la création de la BDD. Mise en place de l architecture Back avec des fichiers routes et controllers. Réalisation des requêtes. Authentification, Hashage du password. Création du CRUD.  Création du front et du panier avec hooks et localstorage.',
+        team: 'Réalisé par : Elodie, Djihane, Thomas, Justine, Lucie, Pierre, Jess, Coraline, Léa, Nathan',
+        tags: ['Js, MySql, Express, React, Tailwind'] ,
+        git: 'https://github.com/Elodieguay/Site_vente_de_meubles',
+        video: 'hxhU7NdRlMY',
+        id:1
+
+    },
+
     {
         title: 'Réseau Social PHP',
         subtitle:'Requêtes SQL et authentification du user',
@@ -11,7 +23,7 @@ export const projects = [
         tags: ['PHP', 'SQL'] ,
         git: 'https://github.com/Elodieguay/Reseau-social-php-hellobook',
         video:"SQeFSFY8Xv8" ,
-        id:5
+        id:2
 
     },
 
@@ -23,7 +35,7 @@ export const projects = [
         tags: ['Javascript', 'CSS'] ,
         git: 'https://github.com/Elodieguay/Browser-extension',
         video: "pw1tPUwC7vo",
-        id:4
+        id:3
 
     },
 
@@ -36,20 +48,10 @@ export const projects = [
         tags: ['React', 'Leaflet'] ,
         git: 'https://github.com/Elodieguay/Data-visualisation',
         video:'6_olgSdjr9c',
-        id:3
+        id:4
 
     },
 
-
-    {
-        title: 'Plateforme de vente le 07/23',
-        description:'Prochaînement en juillet',
-        // team: '',
-        // tags: [''] ,
-        // git: '',
-        id:2
-
-    },
 
     {
         // background: '#dfa438',
@@ -58,7 +60,7 @@ export const projects = [
         // team: '',
         // tags: [''] ,
         // git: '',
-        id:1
+        id:5
 
     },  
     
@@ -68,7 +70,7 @@ export const projects = [
         // team: '',
         // tags: [''] ,
         // git: '',
-        id:0
+        id:6
 
-    },
+    }
 ]
