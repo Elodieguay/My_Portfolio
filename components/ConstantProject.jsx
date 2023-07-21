@@ -57,9 +57,9 @@ export const projects = [
         // background: '#dfa438',
         title: 'Plateforme de microblogging le 08/23',
         description:'Prochaînement en août',
-        // team: '',
-        // tags: [''] ,
-        // git: '',
+        team: '',
+        tags: [''] ,
+        git: '',
         id:5
 
     },  
@@ -67,9 +67,9 @@ export const projects = [
     {
         title: 'Mobile Front & Back le 09/23',
         description:'Prochaînement en septembre',
-        // team: '',
-        // tags: [''] ,
-        // git: '',
+        team: '',
+        tags: [''] ,
+        git: '',
         id:6
 
     }
