@@ -22,8 +22,8 @@ const About = () => {
 
     <div className=' bg3 max-w-full  min-h-screen   px-40 flex items-center py-20 justify-center relative overflow-hidden'>
            
-      <div className='  m-auto md:grid grid-cols-2 gap-7'>
-        <div className=' space-x-2 px-16'>
+      <div className='  m-auto md:grid grid-cols-2 gap-6'>
+        <div className=' space-x-2 px-10'>
           <h2 className='p-2'>Qui suis-je ?</h2>
           <h2 className='py-5'>Une Reconversion pour développer mon imagination</h2>
           <p className='py-5'>
