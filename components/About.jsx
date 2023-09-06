@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Moi9 from '../public/assets/Moi9.jpg'
+import Elodie from '../public/assets/Elodie.jpg'
 import Stacks from './Stacks'
 import {SiGooglemessages} from "react-icons/si"
 import {RiDownload2Line} from "react-icons/ri"
@@ -46,7 +46,7 @@ const About = () => {
           </div>
         </div>
         <div className=' max-md-sm h-auto m-auto shadow-lg shadow-slate-600 rounded-lg flex justify-center p-2  '>
-          <Image className='rounded-lg  max-w-sm h-max' src={Moi9} alt='Moi' />
+          <Image className='rounded-lg  max-w-sm h-max' src={Elodie} alt='Moi' />
         </div>
       
 
