@@ -5,6 +5,44 @@ import React from 'react'
 
 export const projects = [
 
+    {
+        title: 'Site de vente de meuble',
+        description:'Création du serveur et de la Base de donnée en MySql. Nous avons utlisé le dashboard de Php My Admin pour la création de la BDD. Mise en place de l architecture Back avec des fichiers routes et controllers. Réalisation des requêtes. Authentification, Hashage du password. Création du CRUD.  Création du front et du panier avec hooks et localstorage.',
+        team: 'Team de 10 personnes : en binôme , mode agile, daily, clôture',
+        tags: ['Js, MySql, Express, React, Tailwind'] ,
+        git: 'https://github.com/Elodieguay/Site_vente_de_meubles',
+        video: 'IsJWgUgWsKk',
+        id:1
+
+    },
+   {
+        title: 'Random Users',
+        subtitle:'Manipuler les données de plusieurs utilisateurs',
+        description:'Ce projet teste la capacité de créer une petite application, de communiquer avec une API et de montrer mes compétences en programmation. L’objectif est de créer une page qui affiche plusieurs cartes d’utilisateur en même temps. ',
+        team: 'Seule',
+        tags: ['React, Tailwaind'] ,
+        git: 'https://github.com/Elodieguay/random_user',
+        video:"cBhmlU7dCJU" ,
+        id:2
+
+    },
+
+    {
+        title: 'Payment App',
+        description:'Créer une application de paiement responsive en 5 jours.Les utilisateurs peuvent ajouter des produits à leur panier. Une fois les produits ajoutés, les utilisateurs ont accès à une page de paiement et peuvent passer commande. Après avoir passé une commande, une entrée est créée dans la base de données avec le prix total et chaque article de la commande.',
+        team: 'Seule',
+        tags: ['React, Tailwind, Node.js, Express, MySql'] ,
+        git: 'https://github.com/Elodieguay/Payment_App',
+        image:
+        [ 
+            '/assets/bradery_main.png',
+            '/assets/bradery_cart.png',
+            '/assets/bradery_payment.png',
+        ],
+        id:3
+
+    },   
+
    {
         title: 'Plateforme de microblogging',
         description:" Nous avons réalisé dans un délai de 2 semaines: l'installation de Docker & Laravel et de Laravel Breeze (pour l'authentification) puis la base du projet qu'il fallait atteindre, avec : une page d’inscription et de connexion,une page de profil avec votre biographie vos posts, une page d’édition de votre profil, un formulaire de création de nouveau post, une page de visualisation de tous les posts de la plateforme, qui sera la page d’accueil.",
@@ -19,38 +57,10 @@ export const projects = [
             '/assets/DashboardModal_blog.jpg',
             '/assets/Create_blog.jpg',
         ],
-        id:5
+        id:4
 
     }, 
-   
-   
-   
-   
-    {
-        title: 'Site de vente de meuble',
-        description:'Création du serveur et de la Base de donnée en MySql. Nous avons utlisé le dashboard de Php My Admin pour la création de la BDD. Mise en place de l architecture Back avec des fichiers routes et controllers. Réalisation des requêtes. Authentification, Hashage du password. Création du CRUD.  Création du front et du panier avec hooks et localstorage.',
-        team: 'Team de 10 personnes : en binôme , mode agile, daily, clôture',
-        tags: ['Js, MySql, Express, React, Tailwind'] ,
-        git: 'https://github.com/Elodieguay/Site_vente_de_meubles',
-        video: 'hxhU7NdRlMY',
-        id:1
-
-    },
-
-
-
-    {
-        title: 'Réseau Social PHP',
-        subtitle:'Requêtes SQL et authentification du user',
-        description:'Ce projet de type texte à trou, nous a permis de faire un site web dynamique qui construit les pages HTML à la demande grâce à une base de données et de réaliser de nouveaux contenus fournis par les utilisateurs avec des formulaires, de gérer les authentifications (login),sessions, autorisations (droits d’accès) et inscriptions. ',
-        team: 'Team de 3 personnes en pair programming, mode agile',
-        tags: ['PHP, SQL'] ,
-        git: 'https://github.com/Elodieguay/Reseau-social-php-hellobook',
-        video:"SQeFSFY8Xv8" ,
-        id:2
-
-    },
-
+    
     {
         title: 'Extension Navigateur',
         subtitle:'Obtenir la définition du mot séléctionné',
@@ -59,7 +69,7 @@ export const projects = [
         tags: ['Javascript, CSS'] ,
         git: 'https://github.com/Elodieguay/Browser-extension',
         video: "pw1tPUwC7vo",
-        id:3
+        id:5
 
     },
 
@@ -72,20 +82,10 @@ export const projects = [
         tags: ['React, Leaflet'] ,
         git: 'https://github.com/Elodieguay/Data-visualisation',
         video:'6_olgSdjr9c',
-        id:4
+        id:6
 
     },
 
-
-     
     
-    {
-        title: 'Mobile Front & Back le 09/23',
-        description:'Prochaînement en septembre',
-        team: '',
-        tags: [''] ,
-        git: '',
-        id:6
-
-    }
+ 
 ]
