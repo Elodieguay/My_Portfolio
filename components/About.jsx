@@ -32,7 +32,7 @@ const About = () => {
           Une envie qui a commencé il y a plus de 10 ans. Je me lance enfin et ouf cela me fait du bien.            
           </p>
           <p>
-          Depuis janvier 2023, je suis étudiante à Ada Tech School, une école inclusive  adoptant une approche pratique et immersive de l&apos;apprentissage, projets concrets et expérience pratique. Ce qui me permet de monter en compétence continuellement. Le cursus dure 21 mois dont 12 mois en alternance.
+          En janvier 2023, je me suis inscrite à Ada Tech School, une école informatique qui promeut les femmes dans la tech. Cette école adopte une approche pratique et immersive de l&apos;apprentissage, projets concrets et expérience pratique. Ce qui me permet de monter en compétence continuellement.
           </p>
           <p className='py-5'>
             Les stacks que j&apos;apprends :

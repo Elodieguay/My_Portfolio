@@ -19,7 +19,7 @@ const Mainbis = () => {
                 <li className='surligner uppercase font-bold text-7xl tracking-normal text-[#0f3b56] m-6 '>
                     <a className=' cursor-none' href='#contact'> Contact.</a></li>
                 <li><Socials/></li>
-                <p className='  text-[#0f3b56] text-3xl font-semibold pt-10 '>Etudiante developpeuse web  </p>
+                <p className='  text-[#0f3b56] text-3xl font-semibold pt-10 '>Développeuse Full-Stack </p>
                 <h1 className='  font-semibold text-5xl tracking-normal pt-5 text-[#0f3b56]  '>Elodie Guayroso</h1>
 
             </ul>
