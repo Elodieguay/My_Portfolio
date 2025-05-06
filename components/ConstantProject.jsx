@@ -11,7 +11,6 @@ export const projects = [
         team: 'Seul',
         tags: ['React, TanStack Query, React Hook Form, Tailwind, Nest js, MikroOrm, PostgreSQL'] ,
         git: 'https://github.com/Elodieguay/Baobbab/tree/dev',
-        video: 'IsJWgUgWsKk',
         image:[
             '/assets/baobbabHome.png',
             '/assets/baobbabMap.png',
