@@ -6,13 +6,28 @@ import React from 'react'
 export const projects = [
 
     {
+        title: 'baobbab',
+        description:"baobbab est un moteur de recherches incontournable pour dénicher les meilleurs cours de loisirs près de chez nous. Le but est de trouver facilement des professeurs passionnés, des associations dynamiques qui nous entourent, et découvrir une nouvelle façon d'apprendre et de s' épanouir.",
+        team: 'Seul',
+        tags: ['React, TanStack Query, React Hook Form, Tailwind, Nest js, MikroOrm, PostgreSQL'] ,
+        git: 'https://github.com/Elodieguay/Baobbab/tree/dev',
+        video: 'IsJWgUgWsKk',
+        image:[
+            '/assets/baobbabHome.png',
+            '/assets/baobbabMap.png',
+            '/assets/baobbabAuth.png',
+        ],
+        id:1
+
+    },
+    {
         title: 'Site de vente de meuble',
         description:'Création du serveur et de la Base de donnée en MySql. Nous avons utlisé le dashboard de Php My Admin pour la création de la BDD. Mise en place de l architecture Back avec des fichiers routes et controllers. Réalisation des requêtes. Authentification, Hashage du password. Création du CRUD.  Création du front et du panier avec hooks et localstorage.',
         team: 'Team de 10 personnes : en binôme , mode agile, daily, clôture',
-        tags: ['Js, MySql, Express, React, Tailwind'] ,
+        tags: ['React, Tailwind, MySql, Express,'] ,
         git: 'https://github.com/Elodieguay/Site_vente_de_meubles',
         video: 'IsJWgUgWsKk',
-        id:1
+        id:2
 
     },
    {
@@ -23,7 +38,7 @@ export const projects = [
         tags: ['React, Tailwaind'] ,
         git: 'https://github.com/Elodieguay/random_user',
         video:"cBhmlU7dCJU" ,
-        id:2
+        id:3
 
     },
 
@@ -39,7 +54,7 @@ export const projects = [
             '/assets/bradery_cart.png',
             '/assets/bradery_payment.png',
         ],
-        id:3
+        id:4
 
     },   
 
@@ -57,7 +72,7 @@ export const projects = [
             '/assets/DashboardModal_blog.jpg',
             '/assets/Create_blog.jpg',
         ],
-        id:4
+        id:5
 
     }, 
     
@@ -69,22 +84,22 @@ export const projects = [
         tags: ['Javascript, CSS'] ,
         git: 'https://github.com/Elodieguay/Browser-extension',
         video: "pw1tPUwC7vo",
-        id:5
-
-    },
-
-    {
-        
-        title: 'Dataviz & API',
-        subtitle:'Site Web et projet de visualisation des données',
-        description:'Ce projet a été conçu pour que nous puissions utiliser les requêtes API afin de créer une page Web dynamique. Nous avons utilisé plusieurs API afin de rendre des informations sur le temps et la météo, avec une carte centrée sur Ada Tech School, avec des dessins des parcs et des espaces verts voisins. Pour les données, nous avons utilisé Paris Data et une API météo.',
-        team: 'Team de 4 personnes : en mode agile',
-        tags: ['React, Leaflet'] ,
-        git: 'https://github.com/Elodieguay/Data-visualisation',
-        video:'6_olgSdjr9c',
         id:6
 
     },
+
+    // {
+        
+    //     title: 'Dataviz & API',
+    //     subtitle:'Site Web et projet de visualisation des données',
+    //     description:'Ce projet a été conçu pour que nous puissions utiliser les requêtes API afin de créer une page Web dynamique. Nous avons utilisé plusieurs API afin de rendre des informations sur le temps et la météo, avec une carte centrée sur Ada Tech School, avec des dessins des parcs et des espaces verts voisins. Pour les données, nous avons utilisé Paris Data et une API météo.',
+    //     team: 'Team de 4 personnes : en mode agile',
+    //     tags: ['React, Leaflet'] ,
+    //     git: 'https://github.com/Elodieguay/Data-visualisation',
+    //     video:'6_olgSdjr9c',
+    //     id:6
+
+    // },
 
     
  
